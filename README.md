@@ -18,7 +18,6 @@ npm i -S vue-turkish-textarea
 
 ```javascript
 Vue.use(Vtt);
-
 new Vue({
     el: "#app",
     data() {
@@ -26,7 +25,9 @@ new Vue({
             change: true,
             keyup: false,
             paste: true
-});   
+        }
+    }
+})  
 ```
 
 ```
