@@ -36,8 +36,7 @@ new Vue({
 ## Nasıl Çalışır?
 
 Bu kod arkaplanda [Dr. Deniz Yüret](http://www.denizyuret.com/)'in Emacs icin yazdığı eklentiyi JavaScript'e
-çeviren [Mustafa Emre Acer](http://www.mustafaacer.com/)'in [Turkish Deasciifier](https://github.com/meacer/deasciifier/) kodunu React bileşeniyle
-entegre etmektedir. Deasciifier hakkında ayrıntılı bilgi için:
+çeviren [Mustafa Emre Acer](http://www.mustafaacer.com/)'in [Turkish Deasciifier](https://github.com/meacer/deasciifier/) kodunu Vue.js direktifine dönüştürür. Deasciifier hakkında ayrıntılı bilgi için:
 
 - http://www.denizyuret.com/2006/11/emacs-turkish-mode.html
 - http://www.deasciifier.com/
