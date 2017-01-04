@@ -17,7 +17,7 @@
     "turkish"
   ],
   "author": " <zull.mara00@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/abdullah/vue-turkish-textarea/issues"
   },
