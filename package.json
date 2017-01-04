@@ -1,0 +1,31 @@
+{
+  "name": "vue-turkish-textarea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --watch vtt.js  build/vtt.min.js --babel-loader --output-library-target='umd' --output-library='Vtt' -d",
+    "release": "webpack  vtt.js  build/vtt.min.js --babel-loader --output-library-target='umd' --output-library='Vtt' -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdullah/vue-turkish-textarea.git"
+  },
+  "keywords": [
+    "vue",
+    "textarea",
+    "turkish"
+  ],
+  "author": " <zull.mara00@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdullah/vue-turkish-textarea/issues"
+  },
+  "homepage": "https://github.com/abdullah/vue-turkish-textarea#readme",
+  "devDependencies": {
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "deasciifier": "0.0.2"
+  }
+}

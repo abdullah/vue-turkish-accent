@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vue Turkish Textarea</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.js"></script>
+    <script src="build/vtt.min.js"></script>
+    <style>
+        textarea{
+            font-size: 18px;
+            width: 100%;
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <textarea v-vtt="{ onchange: change, onpaste: paste,onkeyup: keyup }">
+        </textarea>
+        <label><input type="checkbox" v-model="change">change</label>
+        <label><input type="checkbox" v-model="paste">paste</label>
+        <label><input type="checkbox" v-model="keyup">keyup</label>
+    </div>
+    <script>
+        Vue.use(Vtt)
+        new Vue({
+            el: "#app",
+            data() {
+                return {
+                    change: true,
+                    keyup: false,
+                    paste: true
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
