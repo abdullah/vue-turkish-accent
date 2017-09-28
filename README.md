@@ -2,7 +2,7 @@
 
 Bu direktif İngilizce klavye ile yazılmış metinleri Türkçe'ye çevirmeye yarar.
 
-[Demo](https://abdullah.github.io/vue-turkish-textarea/)
+[Demo](https://abdullah.github.io/vue-turkish-accent/)
 
 ## Kurulum
 
